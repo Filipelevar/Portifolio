@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    color-scheme: dark  ;
+    background-color: rgba(49, 51, 50, 0.5);
+}
+.menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    border-bottom: 0.1rem solid black;
+    z-index: 1;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    box-shadow:#000000;
+    
+}
+
+.menu h1 a {
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    padding: 5px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border-bottom: solid 1px #505050;
+}
+
+.menu ul li a {
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.menu a:hover {
+	background-color: #757575;
+	color: #fff;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.9 linear;
+    border-radius: 10px;
+    border-bottom: solid 1px #505050;
+}
+
+.busca {
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    outline: none;
+    width: 20px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5 linear;
+    box-shadow:#000000;
+}
+
+
+::placeholder{
+   text-align: left;
+}
+.busca:focus{
+width: 200px;
+border-bottom: solid 1px #eaeaeb;
+outline: none;
+
+}
+
+/* primeira página */
+
+.primeira-pagina {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./assets//minimalistBranco2.jpg);
+    background-size: cover;
+    background-position: center center;
+    box-shadow:#000000;
+}
+
+.texto-primeira-pagina {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.texto-primeira-pagina h1 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+}
+
+.texto-primeira-pagina h2 {
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: black;
+   
+}
+
+.texto-primeira-pagina p {
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: black;
+   
+}
+
+/* segunda página */
+
+.segunda-pagina {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./assets/minimalist4grey.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    box-shadow:#000000;
+}
+.texto-segunda-pagina {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.texto-segunda-pagina h1 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.texto-segunda-pagina h4 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.texto-segunda-pagina p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+/* segunda página */
+.terceira-pagina {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./assets/minimalist1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    box-shadow:#000000;
+}
+.texto-terceira-pagina {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.texto-terceira-pagina h1 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.texto-terceira-pagina h4 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.texto-terceira-pagina p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+/* quarta página */
+.quarta-pagina {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./assets/Minimaslit3grey.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    box-shadow:#000000;
+}
+.texto-quarta-pagina {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.texto-quarta-pagina h1 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.texto-quarta-pagina h4 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.texto-quarta-pagina p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+/* quinta página */
+
+.quinta-pagina {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./assets/minimalist1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    box-shadow:#000000;
+}
+.texto-quinta-pagina {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.texto-quinta-pagina h1 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.texto-quinta-pagina h4 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.texto-quinta-pagina p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+section{
+    width: 100%;
+    background-attachment: fixed;
+}
+
+/* box de contato */
+
+.box{
+    color: white;
+    position: absolute;
+    top: 465%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(59, 59, 59, 0.6);
+    padding: 30px;
+    border-radius: 20px;
+    width: 20%;
+}
+
+fieldset{
+    border: 1px solid rgb(99, 99, 99);
+}
+legend{
+    border: 1px solid rgb(158, 158, 158);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(131, 142, 153);
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-image: linear-gradient(to right,rgb(26, 26, 26), rgb(59, 57, 63));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(77, 77, 77), rgb(100, 100, 100));
+    transition: 0.5s;
+}
+#inputMsg{
+    padding: 15px;
+}
+
+#areaTexto{
+    width: 26em;
+    max-height:200px;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 50px;
+}
